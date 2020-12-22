@@ -5,6 +5,6 @@ tasks:
         types: [opened]
     condition: 'config.users.includes(payload.issue.user.login)'
     config:
-      project-id: 1
-      column-id: 12189167
+      project-id: 2
+      column-id: 12189604
       users: [elylucas]

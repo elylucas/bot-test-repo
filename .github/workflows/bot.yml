@@ -9,6 +9,6 @@ jobs:
     name: ${{ github.event_name }}/${{ github.event.action }}
     runs-on: ubuntu-latest
     steps:
-      - uses: ionic-team/bot@assign-to-project
+      - uses: ionic-team/bot@ba262d
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}

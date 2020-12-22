@@ -3,6 +3,8 @@ tasks:
     on:
       issues:
         types: [opened]
+    condition: 'config.users.includes(payload.issue.user.login)'
     config:
       project-id: 1
       column-id: 12189167
+      users: [elylucas]

@@ -1,0 +1,8 @@
+tasks:
+  - name: assign-to-project
+    on:
+      issues:
+        types: [opened]
+    config:
+      label: needs-reply
+      exclude-labeler: true

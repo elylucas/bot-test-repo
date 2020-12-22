@@ -4,5 +4,5 @@ tasks:
       issues:
         types: [opened]
     config:
-      label: needs-reply
-      exclude-labeler: true
+      project-id: 1
+      column-id: 12189167
